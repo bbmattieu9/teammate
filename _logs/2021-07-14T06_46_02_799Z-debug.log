@@ -1,0 +1,114 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\ogunmolawm\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '--quiet'
+0 verbose cli ]
+1 info using npm@7.6.3
+2 info using node@v12.18.4
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 2ms
+6 timing config:load:cli Completed in 1ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:file:C:\Users\ogunmolawm\source\angular-architect\teammates\.npmrc Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:C:\Users\ogunmolawm\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\ogunmolawm\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 9ms
+19 verbose npm-session 53ae430f0e3d270e
+20 timing npm:load Completed in 17ms
+21 http fetch GET 200 https://registry.npmjs.org/npm 1513ms
+22 timing arborist:ctor Completed in 0ms
+23 timing arborist:ctor Completed in 0ms
+24 timing idealTree:init Completed in 11ms
+25 timing idealTree:userRequests Completed in 0ms
+26 silly idealTree buildDeps
+27 silly fetch manifest @angular-devkit/build-angular@~0.803.19
+28 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 8691ms
+29 silly fetch manifest @angular/compiler-cli@~8.2.14
+30 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 590ms
+31 silly fetch manifest @angular/compiler@~8.2.14
+32 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 440ms
+33 silly fetch manifest typescript@~3.5.3
+34 http fetch GET 200 https://registry.npmjs.org/typescript 3239ms
+35 silly fetch manifest @angular/cli@~8.3.19
+36 http fetch GET 200 https://registry.npmjs.org/@angular%2fcli 707ms
+37 silly fetch manifest @angular/language-service@~8.2.14
+38 http fetch GET 200 https://registry.npmjs.org/@angular%2flanguage-service 2499ms
+39 silly fetch manifest @types/node@~8.9.4
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1056ms
+41 silly fetch manifest @types/jasmine@~3.3.8
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fjasmine 175ms
+43 silly fetch manifest @types/jasminewd2@~2.0.3
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fjasminewd2 125ms
+45 silly fetch manifest codelyzer@^5.0.0
+46 http fetch GET 200 https://registry.npmjs.org/codelyzer 116ms
+47 silly fetch manifest @angular/core@~8.2.14
+48 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 555ms
+49 silly fetch manifest rxjs@~6.4.0
+50 http fetch GET 200 https://registry.npmjs.org/rxjs 284ms
+51 silly fetch manifest zone.js@~0.9.1
+52 http fetch GET 200 https://registry.npmjs.org/zone.js 150ms
+53 silly fetch manifest tslint@~5.15.0
+54 http fetch GET 200 https://registry.npmjs.org/tslint 165ms
+55 silly fetch manifest jasmine-core@~3.4.0
+56 http fetch GET 200 https://registry.npmjs.org/jasmine-core 93ms
+57 silly fetch manifest jasmine-spec-reporter@~4.2.1
+58 http fetch GET 200 https://registry.npmjs.org/jasmine-spec-reporter 87ms
+59 silly fetch manifest karma@~4.1.0
+60 http fetch GET 200 https://registry.npmjs.org/karma 419ms
+61 silly fetch manifest karma-chrome-launcher@~2.2.0
+62 http fetch GET 200 https://registry.npmjs.org/karma-chrome-launcher 99ms
+63 silly fetch manifest karma-coverage-istanbul-reporter@~2.0.1
+64 http fetch GET 200 https://registry.npmjs.org/karma-coverage-istanbul-reporter 179ms
+65 silly fetch manifest karma-jasmine@~2.0.1
+66 http fetch GET 200 https://registry.npmjs.org/karma-jasmine 114ms
+67 silly fetch manifest karma-jasmine-html-reporter@^1.4.0
+68 http fetch GET 200 https://registry.npmjs.org/karma-jasmine-html-reporter 93ms
+69 silly fetch manifest jasmine-core@>=3.8
+70 timing idealTree Completed in 20122ms
+71 timing command:install Completed in 20129ms
+72 notice [40m[37m[39m[49m
+72 notice [40m[37mNew [33mminor[39m[37m version of npm available! [31m7.6.3[39m[37m -> [32m7.19.1[39m[37m[39m[49m
+72 notice [40m[37mChangelog: [36mhttps://github.com/npm/cli/releases/tag/v7.19.1[39m[37m[39m[49m
+72 notice [40m[37mRun [32mnpm install -g npm@7.19.1[39m[37m to update![39m[49m
+72 notice [40m[37m[39m[49m
+73 verbose stack Error: unable to resolve dependency tree
+73 verbose stack     at Arborist.[failPeerConflict] (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1157:25)
+73 verbose stack     at Arborist.[loadPeerSet] (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1134:34)
+73 verbose stack     at async Arborist.[buildDepStep] (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:838:11)
+73 verbose stack     at async Arborist.buildIdealTree (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:209:7)
+73 verbose stack     at async Promise.all (index 1)
+73 verbose stack     at async Arborist.reify (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+73 verbose stack     at async Install.install (C:\Users\ogunmolawm\AppData\Roaming\npm\node_modules\npm\lib\install.js:120:5)
+74 verbose cwd C:\Users\ogunmolawm\source\angular-architect\teammates
+75 verbose Windows_NT 10.0.18362
+76 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ogunmolawm\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--quiet"
+77 verbose node v12.18.4
+78 verbose npm  v7.6.3
+79 error code ERESOLVE
+80 error ERESOLVE unable to resolve dependency tree
+81 error
+82 error While resolving: [1mteammates[22m@[1m0.0.0[22m
+82 error Found: [1mjasmine-core[22m@[1m3.4.0[22m[2m[22m
+82 error [2mnode_modules/jasmine-core[22m
+82 error   [33mdev[39m [1mjasmine-core[22m@"[1m~3.4.0[22m" from the root project
+82 error
+82 error Could not resolve dependency:
+82 error [35mpeer[39m [1mjasmine-core[22m@"[1m>=3.8[22m" from [1mkarma-jasmine-html-reporter[22m@[1m1.7.0[22m[2m[22m
+82 error [2mnode_modules/karma-jasmine-html-reporter[22m
+82 error   [33mdev[39m [1mkarma-jasmine-html-reporter[22m@"[1m^1.4.0[22m" from the root project
+82 error
+82 error Fix the upstream dependency conflict, or retry
+82 error this command with --force, or --legacy-peer-deps
+82 error to accept an incorrect (and potentially broken) dependency resolution.
+82 error
+82 error See C:\Users\ogunmolawm\source\angular-architect\teammates\eresolve-report.txt for a full report.
+83 verbose exit 1
