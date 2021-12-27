@@ -8,16 +8,16 @@ import { TeammateService } from './teammate/service/teammate.service';
 })
 export class AppComponent implements OnInit {
 
-  
+
   title = 'teammates';
 
 
 
-  constructor(private teammateSrv: TeammateService) { }
+  constructor(private tmSrv: TeammateService) { }
 
 
   ngOnInit(): void {
-    this.teammateSrv.getTeammates().subscribe();
+    this.tmSrv.getTeammates().subscribe();
 
   }
 }

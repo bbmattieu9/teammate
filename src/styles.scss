@@ -14,6 +14,7 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   text-align: center;
+  background-color: #ffe3cd;
 }
 a {
   text-decoration: none;
@@ -42,7 +43,7 @@ header img {
 }
 .hero-right-image {
   position: relative;
-  right: -20px;
+  right: -10px;
   min-width: 199px;
   min-height: 153px;
 }
@@ -74,18 +75,19 @@ header img {
 .hero-header h1 {
   width: 445px;
   height: 128px;
-  color: #28283d;
+  color: #264233;
   font-family: "Red Hat Display";
   font-size: 64px;
   font-weight: 900;
   line-height: 64px;
   text-align: center;
+  margin-top: 20px !important;
 }
 .hero-header p {
   margin: 35px auto;
   max-width: 540px;
   max-height: 52px;
-  color: #87879d;
+  color: #264233;
   font-family: "Red Hat Display";
   font-size: 18px;
   font-weight: 500;
@@ -122,7 +124,7 @@ a span {
   justify-content: center;
   border-radius: 29px;
   padding: 1rem;
-  background: #b18bdd;
+  background: #264233;
 }
 
 .section-01 {
